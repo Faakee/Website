@@ -1,81 +1,42 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Home</title>
+    <title>Fabian Kersten</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🧑undefined</text></svg>">
 </head>
-    
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9XGS5CS385"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-9XGS5CS385');
-</script>
+<body class="h-screen w-screen overflow-hidden">
 
-<body>
 
-    <div class="overflow-hidden">
+    <div class="text-white text-2xl absolute p-4"> fabiankersten.com</div>
+    <div class="absolute flex flex-col items-center justify-center z-1 h-screen w-screen absolute text-white">
+        <div class="md:text-3xl text-xl">UNDER CONSTRUCTION <span>&#128679;</span></div>
+        <div class="text-lg">Come back later <span>&#128512;</span></div>
+    </div>
 
-        <div class="pages">
+    <div class="relative flex items-center justify-center h-screen overflow-hidden -z-10">
+        <video id="background-video"
+            class="grayscale cover min-w-full min-h-full max-w-none w-auto overflow-hidden absolute -z-0 brightness-50 justify-center items-center"
+            autoplay loop muted>
+            <source src="data1.mp4" type="video/mp4" class="absolute">
+        </video>
+    </div>
 
-            <div class="page">
-
-                <div class="m-auto text-3xl">
-                    <p>under construction.</p>
-                    <!-- <a href="#" onClick="showTechnical(), slide('next')" class="hover:text-gray-600 underline decoration-2">
-                        <p>technical product design.</p>
-                    </a>
-                    <a href="#" onClick="showComputer(), slide('next')" class="hover:text-gray-600 underline decoration-2">
-                        <p>computer science.</p>
-                    </a> -->
-                </div>
-
-                <div class="absolute bottom-0 right-0 p-4 text-5xl">
-                    <a href="https://www.linkedin.com/"
-                        class="fa-brands fa-linkedin hover:text-gray-600"></a>
-                    <a href="https://www.twitter.com/"
-                        class="fa-brands fa-twitter hover:text-gray-600"></a>
-                    <a href="https://www.github.com/"
-                        class="fa-brands fa-github hover:text-gray-600"></a>
-                    <a href=""
-                        class="fa-solid fa-envelope hover:text-gray-600"></a>
-                </div>
-
-            </div>
-
-            <!-- <div id="technical" class="page bg-red-500 h-screen">
-
-                <img class="object-cover" src="https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTkvMTEvMjEvMTIvMDYvMjcvMzIvc2h1dHRlcnN0b2NrXzE0OTg3NDI1MTkuanBnIl0sWyJwIiwidGh1bWIiLCI4MDB4NDUwIyJdXQ">
-
-                <div onClick="slide('prev')" class="absolute top-0 left-0 p-4 text-5xl">
-                    <a class="fa-solid fa-arrow-left hover:text-gray-600"></a>
-                </div>
-
-            </div>
-
-            <div id="computer" class="page bg-green-500 hidden">
-
-                <img src="https://www.oecd.org/media/oecdorg/directorates/directorateforsciencetechnologyandindustry/com/space-1140-slider-iStock-1210917397.jpg">
-
-                <div onClick="slide('prev')" class="absolute top-0 left-0 p-4 text-5xl">
-                    <a class="fa-solid fa-arrow-left hover:text-gray-600"></a>
-                </div>
-
-            </div> -->
-
-        </div>
-
+    <div class="fixed bottom-0 right-0 p-4 text-3xl text-white">
+        <p class="text-lg">Get in touch... </p>
+        <a href="https://www.linkedin.com/" class="align-middle fa-brands fa-linkedin hover:text-gray-600"></a>
+        <a href="" class="align-middle fa-solid fa-envelope hover:text-gray-600"></a>
+        <a href="https://www.github.com/" class="align-middle fa-brands fa-github hover:text-gray-600"></a>
+        <a href="https://www.twitter.com/" class="align-middle fa-brands fa-twitter hover:text-gray-600"></a>
     </div>
 
 </body>
-
-<script src="script.js"></script>
 
 </html>
